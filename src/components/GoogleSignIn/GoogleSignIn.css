@@ -1,0 +1,15 @@
+.registration-content .another-button {
+  font-weight: 700;
+  color: #001f3c !important;
+  padding: 10px 40px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  transition: 0.5s;
+}
+
+.registration-content .another-button:hover {
+  background-color: transparent;
+  color: #f5f5f5 !important;
+  border-color: #f5f5f5;
+}

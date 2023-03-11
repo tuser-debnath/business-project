@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "heading": "E-Commerce Solution",
+    "subtext": "More than 300 companies have successfully built, operated, and managed their own online businesses.",
+    "button": "Read More",
+    "img": "https://i.ibb.co/gv4WdXm/service5.jpg"
+  },
+  {
+    "id": "2",
+    "heading": "Content Development",
+    "subtext": "We make your online presence more persuasive and engaging with our SEO service, text content, image.",
+    "button": "Read More",
+    "img": "https://i.ibb.co/23G5CRg/service4.jpg"
+  },
+  {
+    "id": "3",
+    "heading": "App Development",
+    "subtext": "We develop custom web and mobile app designed to meet your needs that is perfectly secure and scalable.",
+    "button": "Read More",
+    "img": "https://i.ibb.co/wwk7bH3/service3.jpg"
+  },
+  {
+    "id": "4",
+    "heading": "Digital Marketing",
+    "subtext": "Our Digital Marketing packages for small businesses can generate a lot of customers and get you results.",
+    "button": "Read More",
+    "img": "https://i.ibb.co/FYVTDpT/service1.jpg"
+  },
+  {
+    "id": "5",
+    "heading": "Web Development",
+    "subtext": "We claim to be the best web development company in Bangladesh because we bring huge success.",
+    "button": "Read More",
+    "img": "https://i.ibb.co/9phc56t/service2.jpg"
+  },
+  {
+    "id": "6",
+    "heading": "Software Development",
+    "subtext": "Let us partner with you to develop your next MVP or software project. We'll bring our expertise, knowledge.",
+    "button": "Read More",
+    "img": "https://i.ibb.co/wwk7bH3/service3.jpg"
+  }
+]

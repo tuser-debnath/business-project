@@ -1,0 +1,76 @@
+.header-area {
+  padding: 10px 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9;
+}
+
+.header-area .nav-link {
+  font-size: 18px;
+  color: #f5f5f5 !important;
+  font-family: "Vollkorn", serif !important;
+  margin-left: 20px;
+}
+
+.header-area .nav-link:last-child {
+  color: #f5f5f5 !important;
+  width: 130px;
+  background-color: #001f3c;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  transition: 0.5s;
+}
+
+.header-area .nav-link:last-child:hover {
+  background-color: transparent;
+  color: #f5f5f5 !important;
+  border-color: #f5f5f5;
+}
+
+.header-area .sign-in-button {
+  color: #f5f5f5 !important;
+  width: 130px;
+  background-color: #001f3c;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  transition: 0.5s;
+}
+
+.header-area .sign-in-button:hover {
+  background-color: transparent;
+  color: #f5f5f5 !important;
+  border-color: #f5f5f5;
+}
+
+.header-area .navbar-toggler {
+  border-color: #f5f5f5;
+}
+
+.header-area .navbar-toggler-icon {
+  background-image: url(../../image/bars.png);
+  width: 25px;
+  height: 25px;
+}
+
+.header-area .navbar-toggler:focus {
+  box-shadow: none;
+  outline: 0;
+}
+
+@media (max-width: 991px) {
+  .header-area .nav-link {
+    margin-left: 0;
+    color: #000 !important;
+  }
+  .header-area .nav-link:last-child {
+    margin-top: 10px;
+  }
+  .header-area .nav-link:last-child:hover {
+    color: #001f3c !important;
+    border-color: #001f3c;
+  }
+}

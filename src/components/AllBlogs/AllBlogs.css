@@ -1,0 +1,41 @@
+.single-blog {
+  padding: 20px;
+  border: 1px solid #efefef;
+  margin-bottom: 30px;
+}
+
+.single-blog h4 {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Vollkorn", serif !important;
+}
+
+.single-blog h2 {
+  font-size: 30px;
+  color: #001f3c;
+  font-weight: 700;
+  line-height: 1;
+  font-family: "Vollkorn", serif !important;
+  margin: 15px 0;
+}
+
+.single-blog button {
+  font-size: 18px;
+  padding: 5px 0;
+  background-color: transparent;
+  border: none;
+  color: #000;
+  font-weight: 700;
+  font-family: "Vollkorn", serif !important;
+  transition: 0.3s;
+}
+
+.single-blog a:hover {
+  color: #001f3c;
+}
+
+@media (max-width: 767px) {
+  .single-blog h2 {
+    font-size: 28px;
+  }
+}

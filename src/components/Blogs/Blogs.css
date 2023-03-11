@@ -1,0 +1,26 @@
+.blog-area {
+  padding: 70px 0;
+}
+
+.more-blogs-area {
+  padding: 70px 30px 10px 30px;
+  background-color: #001f3c;
+}
+
+.more-blogs-area h2.rosetheme-more-text {
+  font-size: 38px;
+  color: #f5f5f5;
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: 700;
+  font-family: "Vollkorn", serif !important;
+}
+
+@media (max-width: 767px) {
+  .more-blogs-area {
+    padding: 70px 20px 10px 20px;
+  }
+  .more-blogs-area h2.rosetheme-more-text {
+    font-size: 32px;
+  }
+}

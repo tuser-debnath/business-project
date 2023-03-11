@@ -1,0 +1,25 @@
+.contact-area {
+  padding: 70px 0;
+}
+.contact-area .form-control {
+  color: #001f3c;
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #001f3c;
+}
+
+.contact-area .form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #001f3c;
+  outline: 0;
+  box-shadow: none;
+}
+
+.contact-area textarea {
+  height: 130px;
+}
+
+.contact-area button {
+  padding: 10px 50px !important;
+}

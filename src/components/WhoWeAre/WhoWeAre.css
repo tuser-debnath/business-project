@@ -1,0 +1,25 @@
+.about-who-we-area-area {
+  padding: 70px 0;
+}
+
+.who-we-are-image {
+  padding: 25px;
+  background-color: #001f3c;
+}
+
+.who-we-are-content {
+  padding-left: 30px;
+}
+
+.who-we-are-content h2 {
+  font-size: 34px;
+  font-weight: 700;
+  font-family: "Vollkorn", serif !important;
+}
+
+@media (max-width: 991px) {
+  .who-we-are-content {
+    margin-top: 30px;
+    padding-left: 0;
+  }
+}

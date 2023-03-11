@@ -1,0 +1,23 @@
+.section-heading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section-heading h3 {
+  font-size: 38px;
+  color: #000;
+  font-weight: 700;
+  font-family: "Vollkorn", serif !important;
+}
+
+@media (max-width: 991px) {
+  .section-heading {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .section-heading h3 {
+    font-size: 32px;
+  }
+}
