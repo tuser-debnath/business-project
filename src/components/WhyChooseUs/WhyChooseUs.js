@@ -18,8 +18,8 @@ const WhyChooseUs = () => {
             <div className="single-choose">
               <h3>We meet deadlines</h3>
               <p>
-                We've streamlined our processes to eliminate the biggest
-                hurdle—meeting project deadlines—which helps us.
+                We've streamlined our processes to biggest hurdle—meeting
+                project deadlines—which helps us.
               </p>
             </div>
           </Col>

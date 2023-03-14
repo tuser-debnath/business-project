@@ -1,0 +1,23 @@
+.error-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: calc(100vh - 81px - 288.59px);
+}
+
+.error-text h2 {
+  font-size: 82px;
+  font-weight: 700;
+  font-family: "Vollkorn", serif !important;
+}
+
+.error-text h3 {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: "Vollkorn", serif !important;
+}
+
+.error-text h4 {
+  font-size: 22px;
+}

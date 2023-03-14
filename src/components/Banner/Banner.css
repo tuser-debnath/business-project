@@ -68,12 +68,12 @@
 
 @media (max-width: 767px) {
   .banner-area .carousel-caption {
-    bottom: 25%;
+    bottom: 27%;
     left: 2%;
     right: 2%;
   }
   .banner-area .carousel-caption h2 {
-    font-size: 26px;
+    font-size: 28px;
   }
   .banner-area .carousel-control-next,
   .banner-area .carousel-control-prev {

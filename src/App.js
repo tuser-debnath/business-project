@@ -8,6 +8,7 @@ import Contacts from "./Pages/Contacts/Contacts";
 import Registrations from "./Pages/Registrations/Registrations";
 import SignInPage from "./Pages/SignInPage/SignInPage";
 import RequireAuth from "./Hooks/RequireAuth/RequireAuth";
+import Error from "./Pages/Error/Error";
 // import Logo from "./components/Logo/Logo";
 // import { Route, Routes } from "react-router-dom";
 
@@ -30,6 +31,7 @@ function App() {
         <Route path="/reg" element={<Registrations />}></Route>
         <Route path="/signin" element={<SignInPage />}></Route>
         <Route path="/contact" element={<Contacts />}></Route>
+        <Route path="*" element={<Error />}></Route>
       </Routes>
     </div>
   );

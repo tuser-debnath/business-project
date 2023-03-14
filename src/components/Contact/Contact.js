@@ -14,8 +14,31 @@ const Contact = () => {
         section_heading_text="Feel free to contact us to request a quote or to schedule a consultation with our team."
       />
       <Container>
-        <Row>
-          <Col lg={{ span: 8, offset: 2 }} md={{ span: 12, offset: 0 }}>
+        <Row className="d-flex align-items-center">
+          <Col lg={4}>
+            <div className="contact-more">
+              <div className="single-contact">
+                <h3>Location</h3>
+                <h4>
+                  <span>USA:</span> 1952 NE 49th Street , Pompano Beach,FL 33064
+                </h4>
+                <h4>
+                  <span>Bangladesh:</span> Twin Tower, House-100, (Level-100),
+                  Main Road Block- Z, Dhaka
+                </h4>
+              </div>
+              <div className="single-contact">
+                <h3>Contact Us</h3>
+                <h4>
+                  <span>Telephone USA:</span> +1(954) 500-0000
+                </h4>
+                <h4>
+                  <span>Email USA:</span> test@rosetheme.com
+                </h4>
+              </div>
+            </div>
+          </Col>
+          <Col lg={8} md={{ span: 12, offset: 0 }}>
             <div className="contact-form">
               <input
                 type="text"
